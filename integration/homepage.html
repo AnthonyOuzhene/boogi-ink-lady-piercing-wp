@@ -9,178 +9,153 @@
 </head>
 
 <body>
-    <header>
-        <nav className='navbar'>
-            <ul className='nav-menu'>
-                <li>
-                    <a href="/">
-                        <p>Accueil</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="/">
-                        <p>Le salon</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="/">
-                        <p>L'espace Tattoo</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="/">
-                        <p>L'espace Piercing</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="/">
-                        <p>La boutique</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="/">
-                        <p>Contact</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="/">
-                        <p>Mon compte</p>
-                    </a>
-                </li>
-            </ul>
-
-        </nav>
-    </header>
 
     <main>
-
-        <div>
-            <div>
-                <div className='presentation-salon'>
-                    <h1 className='welcome'>Bienvenue chez Boog'ink et Lady Piercing !</h1>
-
-                    <div className='salon-description'>
-                        <p>Nous sommes un salon de tatouage et de piercing situé à Saint-Malo, en Bretagne. Nous sommes
-                            spécialisés dans les tatouages et les piercings de qualité. Nous vous proposons un large
-                            choix
-                            de tatouages et de piercings, ainsi que des bijoux de qualité.
-                        </p>
-
-                        <p>Notre équipe est composée d'un tatoueur et d'une pierceurse professionnels, qui vous
-                            conseilleront et vous guideront dans votre choix. Nous vous accueillons dans un cadre
-                            chaleureux
-                            et convivial, dans le respect des normes sanitaires et de sécurité.</p>
-
-                        <p>Nous sommes ouverts du mardi au samedi de 12h à 19h. Nous sommes situés au 2 rue de la
-                            République, à Saint-Malo.</p>
-
-                        <p>Vous pouvez également nous suivre sur Facebook et Instagram pour découvrir nos dernières
-                            réalisations.</p>
-
-                        <p>À bientôt !</p>
-                    </div>
-
-                    <a href="/contact">
-                        <div>
-                            <p className="redirection-contact">Parlez-nous de votre projet</p>
-                        </div>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <a class="home" href="#">
+                        <img src="./images/boogi_ink-logo.png" alt="logo" />
+                        <img src="./images/lady-piercing-logo.png" alt="logo" />
                     </a>
                 </div>
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
 
+                <ul class="nav-menu">
+                    <li><a href="#">Le salon</a></li>
+                    <li><a href="/">L'atelier Tatouage</a></li>
+                    <li><a href="/">L'espace Piercing</a></li>
+                    <li><a href="/">La boutique</a></li>
+                    <li><a href="/">Actualités</a></li>
+                    <li><a href="/">Livre d'or</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+                <ul class="nav-login">
+                    <li><a href="/">Inscription</a></li>
+                    <li><a href="/">Connexion</a></li>
+                </ul>
+            </nav>
 
-                <div className='logos'>
-                    <div className='boogi-ink-logo'>
-                        <h2 className='boogi-ink-logo-fonts'>BoOgi 'InK Tattoo</h2>
-                        <a href="/atelier-tatouage">
-                            <img src=# className="boogiink-image" alt="tattoo" />
+            <section class="banner">
+                <h1>Bienvenue chez Boog'ink et Lady Piercing !</h1>
+                <a href="#">
+                    <button class="btn">Parlez-nous de votre projet</button>
+                </a>
+            </section>
+        </header>
+
+        <section class="about">
+            <h1 class="about-title">Le salon</h1>
+            <div class="about-content">
+
+                <div class="about-text">
+                    <p>Nous sommes un salon de tatouage et de piercing situé à Saint-Malo, en Bretagne. Nous sommes
+                        spécialisés dans les tatouages et les piercings de qualité. Nous vous proposons un large choix
+                        de tatouages et de piercings, ainsi que des bijoux de qualité.
+                    </p>
+
+                    <p>Notre équipe est composée d'un tatoueur et d'une pierceurse professionnels, qui vous
+                        conseilleront et vous guideront dans votre choix. Nous vous accueillons dans un cadre chaleureux
+                        et convivial, dans le respect des normes sanitaires et de sécurité.</p>
+
+                    <p>Nous sommes ouverts du mardi au samedi de 12h à 19h. Nous sommes situés au 2 rue de la
+                        République, à Saint-Malo.</p>
+
+                    <p>Vous pouvez également nous suivre sur Facebook et Instagram pour découvrir nos dernières
+                        réalisations.</p>
+
+                    <p>À bientôt !</p>
+
+                </div>
+
+                <div class="about-img">
+                    <div class="boogiink">
+                        <h2 class="boogi-title">BoOg'InK Tattoo</h2>
+                        <a href="#">
+                            <img class="boogiink-logo" src="./images/boogi_ink-logo.png" alt="boogi'ink-logo" />
                         </a>
                     </div>
 
-                    <div className='lady-piercing-logo'>
-                        <h2 className='lady-piercing-logo-fonts'>Lady Piercing</h2>
-                        <a href="/espace-piercing">
-                            <img className="lady-piercing-image" src=# alt="piercing" />
+                    <div class="lady-piercing">
+                        <h2 class="lady-title">Lady Piercing</h2>
+                        <a href="#">
+                            <img class="lady-piercing-logo" src="./images/lady-piercing-logo.png"
+                                alt="lady-piercing-logo" />
                         </a>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <h2 className='slider-title'>Découvrez nos réalisations</h2>
+        <hr class="separator">
 
-        </div>
-    </main>
-    <footer className="footer">
-
-        <hr className="footer-seperator" />
-
-        <section className="footer-salon">
-            <div className='coordonnees-salon'>
-                <a href="/contact">
-                    <div className="footer-salon-contact-details">
-                        <p className="footer-salon-title">Boogi'ink Tattoo & Lady Piercing</p>
-                        <p className="footer-salon-adresse">332 Rue Louis Gillain</p>
-                        <p className="footer-salon-ville">27210 Beuzeville</p>
-                        <p className="footer-salon-telephone">09.80.49.43.32</p>
-                        <p className="footer-salon-mail">ladyboogiink@gmail.com</p>
+        <section class="slider">
+            <h3 class="slider-title">Nos dernières réalisations</h3>
+            <div class="slider">
+                <div class="slides">
+                    <img src="https://picsum.photos/200" alt="tatouage ou piercing">
+                    <img src="https://picsum.photos/200" alt="tatouage ou piercing">
+                    <img src="https://picsum.photos/200" alt="tatouage ou piercing">
+                    <img src="https://picsum.photos/200" alt="tatouage ou piercing">
+                    <img src="https://picsum.photos/200" alt="tatouage ou piercing">
+                </div>
+                <div class="slider-nav">
+                    <button class="prev">Prev</button>
+                    <div class="slider-dots">
+                        <img src="https://picsum.photos/100" alt="tatouage ou piercing">
+                        <img src="https://picsum.photos/100" alt="tatouage ou piercing">
+                        <img src="https://picsum.photos/100" alt="tatouage ou piercing">
                     </div>
-                </a>
+                    <button class="next">Next</button>
+                </div>
             </div>
         </section>
 
-        <section className="footer-info">
+<hr class="separator">
 
-            <section className="footer-info-left">
-                <a href="/" className="footer-info__name">
-                    Accueil
-                </a>
-                <a href="/atelier-tatouage" className="footer-info__tattoo">
-                    L'atelier tatouage
-                </a>
-                <a href="/espace-piercing" className="footer-info__piercing">
-                    L'espace Piercing
-                </a>
-                <a href="/boutique" className="footer-info__piercing">
-                    La boutique
-                </a>
-                <a href="/actualites" className="footer-info__piercing">
-                    Actualités
-                </a>
-                <a href="/livre-d-or" className="footer-info__piercing">
-                    Le livre d'or
-                </a>
-                <a href="/contact" className="footer-info__piercing">
-                    Contact
-                </a>
-            </section>
-
-            <section className="footer-info-center">
-                <a href="x" className="footer-info__legals">
-                    Mentions Légales
-                </a>
-                <a href="x" className="footer-info__politique">
-                    Politique de confidentialité
-                </a>
-                <a href="x" className="footer-info__terms">
-                    Règles sanitaires
-                </a>
-            </section>
-
-            <section className="footer-info-right">
-                <a href='https://www.instagram.com/julienbourgarit/' target={'blank'}>
-                    < BsInstagram />
-                </a>
-                <a href='https://www.facebook.com/julienbourgarit/' target={'blank'}>
-                    < FaFacebook />
-                </a>
-                <a href='mailto:ladyboogiink@gmail.com' target={'blank'}>
-                    < AiFillMail />
-                </a>
-            </section>
-
-
-        </section>
-
-    </footer>
+        <footer>
+            <div class="footer-top">
+                <div class="footer-address">
+                    <h4>Adresse :</h4>
+                    <p>332 rue Louis Gillain</p>
+                    <p>27210 Beuzeville</p>
+                    <p>Tel : 09.80.49.43.32</p>
+                </div>
+                <nav class="footer-nav-1">
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">L'atelier Tatouage</a></li>
+                        <li><a href="#">L'espace Piercings</a></li>
+                        <li><a href="#">La boutique</a></li>
+                        <li><a href="#">Actualités</a></li>
+                        <li><a href="#">Livre d'or</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-nav-2">
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Règles sanitaires</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#">Facebook<i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#">instagram<i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#">Mail<i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10492.5400484512!2d2.349693!3d48.855471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQ1JzIwLjciTiAywrAxMCczNi44Ilc!5e0!3m2!1sen!2sfr!4v1620711311327!5m2!1sen!2sfr"
+                    width="80%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </footer>
+    </main>
 </body>
 
 </html>
