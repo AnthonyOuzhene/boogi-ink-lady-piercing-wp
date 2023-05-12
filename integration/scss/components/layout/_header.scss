@@ -4,20 +4,20 @@ header {
     }
 
     .logo img {
-        box-shadow: 0px 0px 10px #eaeaea;
+        box-shadow: 0px 0px 10px $mainColor;
         border-radius: 50%;
     }
 
     h1 {
         font-family: 'Raleway', sans-serif;
         font-weight: bold;
-        color: #eaeaea;
+        color: $mainColor;
         margin-bottom: 2rem;
         font-size: 2rem;
         text-align: center;
         margin: 2rem;
         letter-spacing: 0.1rem;
-        text-shadow: 0px 0px 5px black;
+        text-shadow: 0px 0px 5px $mainBgColor;
     }
 
     .banner {
@@ -30,20 +30,20 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 0px 10px #eaeaea;
+        box-shadow: 0px 0px 10px $mainColor;
     }
 
     .navbar {
         position: sticky;
         top: 0;
         background: rgb(0, 0, 0);
-        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 7%, rgba(25, 22, 24, 1) 35%, rgba(33, 28, 28, 1) 63%, rgba(23, 14, 14, 1) 94%);
+        background: $mainBgColor;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px;
         z-index: 10;
-        box-shadow: 0px 0px 8px #eaeaea;
+        box-shadow: 0px 0px 8px $mainColor;
 
         .logo {
             display: flex;
@@ -70,12 +70,12 @@ header {
                 a {
                     text-decoration: none;
                     transition: color 0.3s;
-                    color: #eaeaea;
+                    color: $mainColor;
                     letter-spacing: 1px;
 
 
                     &:hover {
-                        color: #3dbdf8;
+                        color: $boogiColor;
                     }
                 }
             }
@@ -93,13 +93,13 @@ header {
                 font-size: 1.2rem;
 
                 a {
-                    color: #eaeaea;
+                    color: $mainColor;
                     letter-spacing: 1px;
                     text-decoration: none;
                     transition: color 0.3s;
 
                     &:hover {
-                        color: #aaa;
+                        color: $ladyColor;
                     }
                 }
             }
@@ -115,9 +115,13 @@ header {
             .nav-menu {
                 display: none;
             }
+            .nav-login {
+                display: none;
+            }
 
             .burger {
                 display: block;
+                font-size: 2rem;
             }
 
             .nav-active {
